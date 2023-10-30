@@ -1,5 +1,4 @@
 * {
-    font-family: na;
     margin: 0;
 }
 
@@ -11,13 +10,13 @@ header {
     margin-bottom: 12px;
 }
 
-header ul{
+ul {
     display: flex;
     align-items: center;
     height: 100%;
 }
 
-header nav ul li {
+nav ul li {
     list-style-type: none;
     margin-left: 16px;
     align-items: center;
@@ -29,36 +28,34 @@ a {
     margin-left: 16px;   
 }
 
-header div {
+div {
     display: flex;
 }
 
-main nav {
-    background-color: aqua;
+main {
+    background-image: url(../img/img_fundo.png) ;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 12px;
 }
 
 main div {
-    background-color: rgba(0, 0, 0, 0.257);
+    background-color: rgba(121, 121, 121, 0.614);
+    display: inline-table;
+    justify-content: flex-start;
+    padding: 8px;
+    margin-bottom: 12px;
 }
 
 footer {
     background-color: #6F74FF;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
-    margin-bottom: 12px;
+    padding: 8px;;
 }
 
-footer nav h5{
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-footer ul{
-    display: flex;
-}
-
-footer ul a {
-    align-items: center;
+footer ul a{
+    list-style-type: none;
+    margin-left: 8px;
+    align-items: end;
 }
